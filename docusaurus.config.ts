@@ -20,6 +20,8 @@ const config: Config = {
   organizationName: 'mcp-wp', // Usually your GitHub org/user name.
   projectName: 'mcp-wp.github.io', // Usually your repo name.
 
+  deploymentBranch: 'main',
+
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
