@@ -32,4 +32,4 @@ You can use [dedicated commands](./commands.md) for adding local or remote MCP s
 wp mcp server add "mysite" "https://example.com/wp-json/mcp/v1/mcp
 ```
 
-If you want to use MCP with another WordPress installation, install the [MCP Server WordPress plugin](../mcp-server).
+If you want to use MCP with another WordPress installation, install the [MCP Server WordPress plugin](../mcp-server/installation.md).
