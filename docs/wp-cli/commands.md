@@ -16,8 +16,24 @@ wp ai <prompt> [--skip-wordpress]
 <prompt>
     AI prompt.
 
+[--skip-builtin-servers]
+    Skip loading the built-in servers.
+
 [--skip-wordpress]
     Run command without loading WordPress. (Not implemented yet)
+
+[--approval-mode]
+    Approve tool usage before running.
+
+[--service]
+    Manually specify the AI service to use.
+    Depends on the available AI services.
+    Examples: 'google', 'anthropic', 'openai'.
+
+[--model]
+    Manually specify the LLM model that should be used.
+    Depends on the available AI services.
+    Examples: 'gemini-2.0-flash', 'gpt-4o'.
 ```
 
 **EXAMPLES**

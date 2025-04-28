@@ -19,7 +19,7 @@ $server->register_tool(
 	[
 		'name'        => 'calculate_total',
 		'description' => 'Calculate the total amount'
-		'callable'    => function( $params ) {
+		'callback'    => function( $params ) {
 			return $params['price'] * $params['quantity'];
 		},
 		'inputSchema' => [
